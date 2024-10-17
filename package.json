@@ -1,0 +1,50 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@supabase/ssr": "latest",
+    "@supabase/supabase-js": "latest",
+    "@syncfusion/ej2-base": "^26.2.10",
+    "@syncfusion/ej2-buttons": "^26.2.10",
+    "@syncfusion/ej2-react-gantt": "^26.2.14",
+    "autoprefixer": "10.4.17",
+    "clsx": "^2.1.1",
+    "cors": "^2.8.5",
+    "express": "^4.21.0",
+    "gantt-task-react": "^0.3.9",
+    "geist": "^1.2.1",
+    "mongodb": "^6.9.0",
+    "mongoose": "^8.7.0",
+    "next": "^14.2.6",
+    "node-cron": "^3.0.3",
+    "node-fetch": "^3.3.2",
+    "postcss": "8.4.33",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^5.3.0",
+    "react-window": "^1.8.10",
+    "tailwind-merge": "^2.5.2",
+    "tailwindcss": "3.4.1",
+    "typescript": "5.3.3"
+  },
+  "devDependencies": {
+    "@types/node": "20.11.5",
+    "@types/react": "18.2.48",
+    "@types/react-dom": "18.2.18",
+    "@types/react-window": "^1.8.8",
+    "encoding": "^0.1.13",
+    "postcss-preset-env": "^10.0.7"
+  },
+  "name": "client-portal-tbf",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "<a href=\"https://demo-nextjs-with-supabase.vercel.app/\">   <img alt=\"Next.js and Supabase Starter Kit - the fastest way to build apps with Next.js and Supabase\" src=\"https://demo-nextjs-with-supabase.vercel.app/opengraph-image.png\">   <h1 align=\"center\">Next.js and Supabase Starter Kit</h1> </a>",
+  "main": "next.config.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
